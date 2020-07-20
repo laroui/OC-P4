@@ -1,4 +1,7 @@
+@font-face {font-family: "Helvetica Neue"; src: url("//db.onlinewebfonts.com/t/0e6de1ec911a2e267ff136bbdd384a44.eot"); src: url("//db.onlinewebfonts.com/t/0e6de1ec911a2e267ff136bbdd384a44.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/0e6de1ec911a2e267ff136bbdd384a44.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/0e6de1ec911a2e267ff136bbdd384a44.woff") format("woff"), url("//db.onlinewebfonts.com/t/0e6de1ec911a2e267ff136bbdd384a44.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/0e6de1ec911a2e267ff136bbdd384a44.svg#Helvetica Neue") format("svg"); }
 body {
+
+    scroll-behavior: smooth;
     margin: 0;
     padding: 0;
     background: #FFF;
@@ -6,7 +9,27 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+@font-face {
+    font-family: 'kingthings_petrock_lightRg';
+    src: url('./fonts/Kingthings_Petrock_light-webfont.eot');
+    src: url('fonts/Kingthings_Petrock_light-webfont.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/Kingthings_Petrock_light-webfont.woff') format('woff');
 
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'kingthings_petrockregular';
+    src: url('/fonts/Kingthings_Petrock-webfont.eot');
+    src: url('/fonts/Kingthings_Petrock-webfont.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+a .logo-text{
+    font-family: 'kingthings_petrock_lightRg',cursive;
+}
 a,
 button {
     transition: all .3s ease-in-out;
@@ -24,10 +47,11 @@ a:hover {
     bottom: 0;
     width: 100%;
     z-index: 100000;
-    background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
+    background: #FFFFFF url("img/spinner.gif") no-repeat center center;
 }
 
 .bloc {
+
     width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
@@ -40,6 +64,7 @@ a:hover {
 }
 
 .bloc .container {
+
     padding-left: 0;
     padding-right: 0;
 }
@@ -171,7 +196,7 @@ a:hover {
     color: rgba(0, 0, 0, .7);
 }
 
-.d-bloc .panel icon {
+.d-bloc .panel  {
     border-color: rgba(0, 0, 0, .7);
 }
 
@@ -293,11 +318,11 @@ a:hover {
 }
 
 .navbar-brand {
+    font-family: 'kingthings_petrockregular', cursive;
     height: auto;
     padding: 3px 15px;
     font-size: 25px;
     font-weight: normal;
-    font-weight: 600;
     line-height: 44px;
 }
 
@@ -339,7 +364,7 @@ a:hover {
 
 .navbar-toggle {
     margin: 10px 10px 0 0;
-    border: 0px;
+
 }
 
 .navbar-toggle:hover {
@@ -394,7 +419,7 @@ a:hover {
         position: relative;
         width: 100%;
         right: 0;
-        margin-right: 0px;
+        margin-right: 0;
         margin-top: 20px;
     }
     .nav-center.mini-nav .navbar-toggle {
@@ -538,7 +563,7 @@ a[data-lightbox] {
 
 a[data-lightbox]:hover::before {
     content: "+";
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
+    font-family: 'Helvetica Neue', Arial;
     font-size: 32px;
     width: 50px;
     height: 50px;
@@ -606,7 +631,9 @@ a[data-lightbox]:hover img {
     opacity: 1.0;
     color: #FFF;
 }
-
+.blackqote{
+    border-left:none;
+}
 .next-lightbox,
 .prev-lightbox {
     font-size: 20px;
@@ -659,6 +686,7 @@ a {
 }
 
 .hero-bloc-text {
+    font-family: 'kingthings_petrock_lightRg';
     font-size: 38px;
 }
 
@@ -691,9 +719,10 @@ p {
 }
 
 .cta-hero {
+    font-family: 'kingthings_petrock_lightRg';
     margin-top: 22px;
     color: #FFFFFF!important;
-    text-transform: uppercase;
+
     padding: 12px 28px 12px 28px;
     font-size: 16px;
     font-weight: 700;
@@ -701,7 +730,7 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: 0 auto;
 }
 
 h2 {
@@ -771,23 +800,29 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #AF6249;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #ffffff !important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #AF6249;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #ad3e1d !important;
     color: #FFFFFF!important;
 }
+cite {
+    color: #AF6249!important;
+}
 
+cite:hover {
+    color: #ad3e1d!important;
+}
 .ltc-white {
     color: #FFFFFF!important;
 }
@@ -797,16 +832,16 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #AF6249!important;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956!important;
+    color: #ad3e1d!important;
 }
 
 .icon-dark-slate-blue {
-    color: #364577!important;
-    border-color: #364577!important;
+    color: #b8470c !important;
+    border-color: #c27956!important;
 }
 
 .bg-dots-bg {
@@ -822,7 +857,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/");
+    background-image: url("img/la-chouette-agence-banniere.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -872,10 +907,6 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -884,9 +915,6 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
 }
 
 @media (max-width: 767px) {
@@ -908,7 +936,7 @@ h4 {
     .b-parallax {
         background-attachment: scroll;
     }
-    .navbar .nav {
+    .navbar .nav .logo-text {
         padding-top: 0;
         border-top: 1px solid rgba(0, 0, 0, .2);
         float: none!important;
@@ -925,7 +953,6 @@ h4 {
     }
     .nav > li {
         margin-top: 0;
-        border-bottom: 1px solid rgba(0, 0, 0, .1);
         background: rgba(0, 0, 0, .05);
         text-align: left;
         padding-left: 15px;
@@ -936,11 +963,7 @@ h4 {
     }
     .dropdown .dropdown a .caret {
         float: none;
-        margin: 5px 0 0 10px!important;
-        border: 4px solid black;
-        border-bottom-color: transparent;
-        border-right-color: transparent;
-        border-left-color: transparent;
+        margin: 5px 0 0 10px !important;
     }
     #hero-bloc .navbar .nav {
         background: rgba(0, 0, 0, .8);
@@ -1011,6 +1034,7 @@ h4 {
         margin-top: 30px;
     }
     form {
+
         padding: 5px;
     }
     .close-lightbox {
@@ -1029,6 +1053,7 @@ h4 {
 }
 
 @media (max-width: 400px) {
+
     .bloc {
         padding-left: 0;
         padding-right: 0;
@@ -1039,4 +1064,4 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
-}
+}}
