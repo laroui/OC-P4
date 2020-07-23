@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'kingthings_petrockregular';
+    src: url('../fonts/Kingthings_Petrock-webfont.eot');
+    src: url('../fonts/Kingthings_Petrock-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Kingthings_Petrock-webfont.woff') format('woff'),
+         url('../fonts/Kingthings_Petrock-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+

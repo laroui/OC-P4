@@ -10,10 +10,11 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 @font-face {
-    font-family: 'kingthings_petrock_lightRg';
-    src: url('./fonts/Kingthings_Petrock_light-webfont.eot');
-    src: url('fonts/Kingthings_Petrock_light-webfont.eot?#iefix') format('embedded-opentype'),
-    url('./fonts/Kingthings_Petrock_light-webfont.woff') format('woff');
+    font-family: 'kingthings_petrockregular';
+    src: url('./fonts/Kingthings_Petrock-webfont.eot');
+    src: url('./fonts/Kingthings_Petrock-webfont.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/Kingthings_Petrock-webfont.woff') format('woff'),
+    url('./fonts/Kingthings_Petrock-webfont.ttf') format('truetype');
 
     font-weight: normal;
     font-style: normal;
@@ -28,7 +29,9 @@ body {
 
 }
 a .logo-text{
-    font-family: 'kingthings_petrock_lightRg',cursive;
+
+    font-family: 'kingthings_petrockregular';
+
 }
 a,
 button {
@@ -318,7 +321,7 @@ a:hover {
 }
 
 .navbar-brand {
-    font-family: 'kingthings_petrockregular', cursive;
+    font-family: 'kingthings_petrock_lightRg';
     height: auto;
     padding: 3px 15px;
     font-size: 25px;
@@ -364,7 +367,7 @@ a:hover {
 
 .navbar-toggle {
     margin: 10px 10px 0 0;
-
+    border: 0px;
 }
 
 .navbar-toggle:hover {
@@ -419,7 +422,7 @@ a:hover {
         position: relative;
         width: 100%;
         right: 0;
-        margin-right: 0;
+        margin-right: 0px;
         margin-top: 20px;
     }
     .nav-center.mini-nav .navbar-toggle {
@@ -563,7 +566,7 @@ a[data-lightbox] {
 
 a[data-lightbox]:hover::before {
     content: "+";
-    font-family: 'Helvetica Neue', Arial;
+    font-family: 'Helvetica Neue';
     font-size: 32px;
     width: 50px;
     height: 50px;
@@ -686,7 +689,7 @@ a {
 }
 
 .hero-bloc-text {
-    font-family: 'kingthings_petrock_lightRg';
+    font-family: 'kingthings_petrockregular','kingthings_petrock_lightRg';
     font-size: 38px;
 }
 
@@ -703,9 +706,11 @@ a {
     max-width: 520px;
     margin: auto auto auto auto;
 }
-
+.blockquote {
+    border-left:none;
+}
 p {
-    font-size: 11px;
+    font-size: 1.1em;
 }
 
 .tight-width-whitespace {
@@ -714,7 +719,7 @@ p {
 }
 
 .h1 {
-    font-size: 20px;
+    font-size: 1.2em;
     font-family: "Open Sans";
 }
 
@@ -748,7 +753,7 @@ h3 {
 .med-width-whitespace {
     max-width: 800px;
     margin: auto auto auto auto;
-    box-shadow: 0px 0px 0px #000000;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.25);
 }
 
 h1 {
@@ -918,9 +923,22 @@ cite:hover {
 }
 
 @media (max-width: 767px) {
-    .page-container {
-        overflow-x: hidden;
-        position: relative;
+
+    .bloc-lg{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    .page-container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
     }
     h1,
     h2,
@@ -997,6 +1015,7 @@ cite:hover {
         margin-left: 10px;
     }
     .bloc {
+        box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.25);
         padding-left: 0;
         padding-right: 0;
     }
@@ -1053,6 +1072,7 @@ cite:hover {
 }
 
 @media (max-width: 400px) {
+
 
     .bloc {
         padding-left: 0;
