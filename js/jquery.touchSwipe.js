@@ -530,3 +530,34 @@
         ALL: ALL_FINGERS
     }
 });
+// smooth scroll to anchor, with option of hash appearing in url. Thanks:
+// https://paulund.co.uk/smooth-scroll-to-internal-links-with-jquery
+$(document).ready(function(){
+    $('a[href^="#"]').on('click',function (e) {
+        e.preventDefault();
+        var target = this.hash;
+        var $target = $(target);
+        $('html, body').stop().animate({
+            'scrollTop': $target.offset().top
+        }, 900, 'swing', function () {
+            // window.location.hash = target;
+        });
+    });
+});
+// add padding top to show content behind navbar
+$('body').css('padding-top', $('.navbar').outerHeight() + 'px')
+
+// detect scroll top or down
+if ($('.smart-scroll').length > 0) { // check if element exists
+    var last_scroll_top = 0;
+    $(window).on('scroll', function() {
+        scroll_top = $(this).scrollTop();
+        if(scroll_top < last_scroll_top) {
+            $('.smart-scroll').removeClass('scrolled-down').addClass('scrolled-up');
+        }
+        else {
+            $('.smart-scroll').removeClass('scrolled-up').addClass('scrolled-down');
+        }
+        last_scroll_top = scroll_top;
+    });
+}
