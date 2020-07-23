@@ -966,6 +966,11 @@ cite:hover {
 }
 
 @media (max-width: 767px) {
+    .navbar a {
+        justify-content: center;
+        justify-items: center;
+
+    }
 
     .bloc-lg{
         display: flex;
