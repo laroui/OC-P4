@@ -1,6 +1,5 @@
 @font-face {font-family: "Helvetica Neue"; src: url("//db.onlinewebfonts.com/t/0e6de1ec911a2e267ff136bbdd384a44.eot"); src: url("//db.onlinewebfonts.com/t/0e6de1ec911a2e267ff136bbdd384a44.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/0e6de1ec911a2e267ff136bbdd384a44.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/0e6de1ec911a2e267ff136bbdd384a44.woff") format("woff"), url("//db.onlinewebfonts.com/t/0e6de1ec911a2e267ff136bbdd384a44.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/0e6de1ec911a2e267ff136bbdd384a44.svg#Helvetica Neue") format("svg"); }
 body {
-
     scroll-behavior: smooth;
     margin: 0;
     padding: 0;
@@ -10,13 +9,12 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 @font-face {
-<<<<<<< HEAD
+
     font-family: 'kingthings_petrockregular';
     src: url('./fonts/Kingthings_Petrock-webfont.eot');
     src: url('./fonts/Kingthings_Petrock-webfont.eot?#iefix') format('embedded-opentype'),
     url('./fonts/Kingthings_Petrock-webfont.woff') format('woff'),
     url('./fonts/Kingthings_Petrock-webfont.ttf') format('truetype');
-
     font-weight: normal;
     font-style: normal;
 
@@ -30,11 +28,10 @@ body {
 
 }
 a .logo-text{
-
     font-family: 'kingthings_petrockregular';
 
 }
-=======
+@font-face {
     font-family: 'kingthings_petrock_lightRg';
     src: url('./fonts/Kingthings_Petrock_light-webfont.eot');
     src: url('fonts/Kingthings_Petrock_light-webfont.eot?#iefix') format('embedded-opentype'),
@@ -44,6 +41,9 @@ a .logo-text{
     font-style: normal;
 
 }
+
+
+
 @font-face {
     font-family: 'kingthings_petrockregular';
     src: url('/fonts/Kingthings_Petrock-webfont.eot');
@@ -55,7 +55,6 @@ a .logo-text{
 a .logo-text{
     font-family: 'kingthings_petrock_lightRg',cursive;
 }
->>>>>>> 7c99a095da1d5bd4035925051800f73c18d92f62
 a,
 button {
     transition: all .3s ease-in-out;
@@ -342,13 +341,13 @@ a:hover {
     margin-bottom: 0;
     z-index: 1;
 }
+.navbar-brand span{
 
+    font-family: 'kingthings_petrockregular';
+}
 .navbar-brand {
-<<<<<<< HEAD
+
     font-family: 'kingthings_petrock_lightRg';
-=======
-    font-family: 'kingthings_petrockregular', cursive;
->>>>>>> 7c99a095da1d5bd4035925051800f73c18d92f62
     height: auto;
     padding: 3px 15px;
     font-size: 25px;
@@ -593,11 +592,7 @@ a[data-lightbox] {
 
 a[data-lightbox]:hover::before {
     content: "+";
-<<<<<<< HEAD
     font-family: 'Helvetica Neue';
-=======
-    font-family: 'Helvetica Neue', Arial;
->>>>>>> 7c99a095da1d5bd4035925051800f73c18d92f62
     font-size: 32px;
     width: 50px;
     height: 50px;
@@ -720,11 +715,7 @@ a {
 }
 
 .hero-bloc-text {
-<<<<<<< HEAD
     font-family: 'kingthings_petrockregular','kingthings_petrock_lightRg';
-=======
-    font-family: 'kingthings_petrock_lightRg';
->>>>>>> 7c99a095da1d5bd4035925051800f73c18d92f62
     font-size: 38px;
 }
 
@@ -1108,10 +1099,6 @@ cite:hover {
 
 @media (max-width: 400px) {
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 7c99a095da1d5bd4035925051800f73c18d92f62
     .bloc {
         padding-left: 0;
         padding-right: 0;
