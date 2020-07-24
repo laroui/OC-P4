@@ -1,4 +1,12 @@
-@font-face {font-family: "Helvetica Neue"; src: url("//db.onlinewebfonts.com/t/0e6de1ec911a2e267ff136bbdd384a44.eot"); src: url("//db.onlinewebfonts.com/t/0e6de1ec911a2e267ff136bbdd384a44.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/0e6de1ec911a2e267ff136bbdd384a44.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/0e6de1ec911a2e267ff136bbdd384a44.woff") format("woff"), url("//db.onlinewebfonts.com/t/0e6de1ec911a2e267ff136bbdd384a44.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/0e6de1ec911a2e267ff136bbdd384a44.svg#Helvetica Neue") format("svg"); }
+@font-face {font-family: "Helvetica Neue"; src: url("https://db.onlinewebfonts.com/t/0e6de1ec911a2e267ff136bbdd384a44.eot"); src: url("//db.onlinewebfonts.com/t/0e6de1ec911a2e267ff136bbdd384a44.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/0e6de1ec911a2e267ff136bbdd384a44.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/0e6de1ec911a2e267ff136bbdd384a44.woff") format("woff"), url("//db.onlinewebfonts.com/t/0e6de1ec911a2e267ff136bbdd384a44.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/0e6de1ec911a2e267ff136bbdd384a44.svg#Helvetica Neue") format("svg"); }
+.social-link a {
+    padding: 2% 2% 2% 2%;
+}
+#bloc-8 {
+    display: flex;
+    justify-items: center;
+    justify-content: space-around;
+}
 body {
     scroll-behavior: smooth;
     margin: 0;
@@ -19,39 +27,12 @@ body {
     font-style: normal;
 
 }
-@font-face {
-    font-family: 'kingthings_petrockregular';
-    src: url('/fonts/Kingthings_Petrock-webfont.eot');
-    src: url('/fonts/Kingthings_Petrock-webfont.eot?#iefix') format('embedded-opentype');
-    font-weight: normal;
-    font-style: normal;
 
-}
 a .logo-text{
     font-family: 'kingthings_petrockregular';
 
 }
-@font-face {
-    font-family: 'kingthings_petrock_lightRg';
-    src: url('./fonts/Kingthings_Petrock_light-webfont.eot');
-    src: url('fonts/Kingthings_Petrock_light-webfont.eot?#iefix') format('embedded-opentype'),
-    url('./fonts/Kingthings_Petrock_light-webfont.woff') format('woff');
 
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-@font-face {
-    font-family: 'kingthings_petrockregular';
-    src: url('/fonts/Kingthings_Petrock-webfont.eot');
-    src: url('/fonts/Kingthings_Petrock-webfont.eot?#iefix') format('embedded-opentype');
-    font-weight: normal;
-    font-style: normal;
-
-}
 a .logo-text{
     font-family: 'kingthings_petrock_lightRg',cursive;
 }
