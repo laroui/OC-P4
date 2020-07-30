@@ -27,7 +27,16 @@ body {
     font-style: normal;
 
 }
+#bloc-7 .bloc {
+    border-radius:30px;
+}
 
+#bloc-7 .container {
+    border-radius:30px;
+}
+h2.logo-text{
+    font-family: kingthings_petrockregular;
+}
 a .logo-text{
     font-family: 'kingthings_petrockregular';
 
@@ -968,6 +977,9 @@ cite:hover {
         justify-content: center;
         align-items: center;
         align-content: center;
+    }
+    article img{
+        margin: 0 auto;
     }
     h1,
     h2,
