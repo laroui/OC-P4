@@ -85,15 +85,15 @@ a:hover {
 }
 
 .bloc-lg {
-    padding: 100px 50px;
+    padding: 100px 30px;
 }
 
 .bloc-md {
-    padding: 50px;
+    padding: 30px;
 }
 
 .bloc-sm {
-    padding: 20px 50px;
+    padding: 15px 50px;
 }
 
 .bg-center,
@@ -859,7 +859,7 @@ cite {
 }
 
 cite:hover {
-    color: #ad3e1d!important;
+    color: #ad3e1d !important;
 }
 .ltc-white {
     color: #FFFFFF!important;
@@ -1112,15 +1112,23 @@ cite:hover {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 425px) {
 
-    .bloc {
-        padding-left: 0;
-        padding-right: 0;
-    }
-}
+    .page-container {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}}
 
 @media (max-width: 767px) {
+    .page-container {
+        margin: 0 auto;
+    }
     .bloc-mob-center-text {
         text-align: center;
     }
