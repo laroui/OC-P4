@@ -28,7 +28,10 @@
 	<meta property="twitter:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
 
     <title>La Chouette - L'agence Web Design d'éxception sur Lyon  </title>
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css" defer>
+	<link rel="stylesheet" type="text/css" href="style.css">
 
+	<script src="./js/jquery-2.1.0.js"></script>
 <!-- Analytics -->
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 
@@ -63,7 +66,7 @@
 						<a href="#bloc-4-portfolio">Nos Réalisations </a>
 					</li>
 					<li>
-						<a href="#bloc-6">Contact</a>
+						<a href="#block7">Contact</a>
 					</li>
 					<li>
 
@@ -85,7 +88,7 @@
 					<span class="logo-text">La chouette agence.</span>
 				</h1>
 				<div class="text-center">
-					<a href="#bloc-6" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine" id="cta-hero " >Contact</a>
+					<a href="#block7" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine" id="cta-hero " >Contact</a>
 				</div>
 			</div>
 		</div>
@@ -100,7 +103,7 @@
 	<div class="container bloc-md">
 		<div class="row">
 			<div class="col-sm-12 text-center">
-				<h2 class="logo-text"> services </h2>
+				<h2 class="logo-text"> Nos services </h2>
 				<h2>La chouette agence est une agence de web design qui aide <br> les entreprises
 				à devenir attractives et visibles sur internet </h2>
 			</div>
@@ -140,7 +143,7 @@
 				</p>
 			</div>
 		</div>
-		<div class="row voffset-lg voffset">
+		<div class="row voffset-lg offset">
 			<div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
 				<blockquote class="blockquote text-center">
 					<h2 class="mb-0"> La chouette agence est une excellente agence web ! Les web designers ont réussi à capturer l'essence de notre entreprise
@@ -182,11 +185,10 @@
 </div>
 <!-- bloc-3-what-i-do END -->
 
-<!-- bloc-4-portfolio -->
-
 	<!-- Bloc portfolio -->
 	<section class="bloc bgc-white bg-lines-h2-bg bg-repeat l-bloc" id="bloc-4-portfolio">
 		<div class="container bloc-lg">
+			<h2 class="logo-text text-center"> Nos Réalisations </h2>
 
 			<div class="row tight-width-whitespace portfolio-row">
 				<article class="col-sm-6">
@@ -236,13 +238,12 @@
 	</section>
 <!-- bloc-4-portfolio END -->
 
-
 	<!-- bloc-6 -->
 	<div class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="bloc-6">
-		<div class="container bloc-lg">
-			<div class="row">
-				<div class="col-sm-12">
-					<h1 class="text-center hero-bloc-text tc-white">
+		<div class="container bloc-lg" id="block7" >
+			<div class="row " >
+				<div class="col-sm-12" >
+					<h1 class="text-center hero-bloc-text tc-white" >
 						Prêt pour redonner vie à votre projet ?
 					</h1>
 					<p class="text-center mg-lg tc-white tight-width-whitespace">
@@ -300,13 +301,17 @@
 
 <!-- Footer - bloc-8 END -->
 	<!-- ScrollToTop Button -->
+
 	<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
 	<!-- ScrollToTop Button END-->
 </div>
 <!-- Js load defer  -->
+<script src="./js/bootstrap.js"></script>
+<script src="./js/blocs.js"></script>
+<script src="./js/jquery.touchSwipe.js" defer></script>
 
-<link rel="stylesheet" type="text/css" href="./css/bootstrap.css" defer>
-<link rel="stylesheet" type="text/css" href="style.css">
+
+
 <link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
 <link rel="stylesheet" type="text/css" href="./css/et-line.css">
 </body>
