@@ -1,0 +1,14 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# DEV
+
+    <LAROUI N > -- <web developer> -- <twitter:larouii>
+
+# THANKS
+
+    <To OC for making it Real >
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
